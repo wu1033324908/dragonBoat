@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>端午划龙舟</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.websocket-0.0.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jQuery-extend.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body id="top">
+		<div class="dragonBoat">
+			<div class="container">
+				<ul>
+					<li>
+						<div class="boat">
+							<img src="img/boat.png" />
+						</div>
+						<div class="water">
+							<img src="img/water.png" />
+							<div class="userImg">
+								<span>第一组：</span>
+								<span class="rank"></span>
+								<span class="suggest"></span>
+								<img src="" />
+								<img src="" />
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="toolBar">
+			<div class="boolBarContainer">
+				<button id="add">添加队伍</button>
+				<button id="del">移除队伍</button>
+				<button href="#top" id="start">开始游戏</button>
+				<button href="#top" id="reset">重置游戏</button>
+				<div class="music">
+					<audio id="audio" autoplay="autoplay" loop='loop' src="css/xcyy.mp3"></audio>
+				</div>
+			</div>
+		</div>
+		<div id="msgBord"></div>
+	</body>
+
+</html>
